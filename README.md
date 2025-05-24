@@ -47,13 +47,13 @@ Die Klassifikation erfolgt in folgende zwei Klassen:
 
 ## Datenaugmentation
 
-| Augmentierung               | Beschreibung                                                                                     |
-|-----------------------------|--------------------------------------------------------------------------------------------------|
-| Resize((224, 224))          | Skaliert alle Bilder auf die Eingabegröße 224×224 Pixel, passend für das ViT-Modell.             |
-| RandomHorizontalFlip()      | Spiegelt das Bild zufällig horizontal mit einer Wahrscheinlichkeit von 0.5.                     |
-| RandomRotation(20–30)       | Dreht das Bild zufällig im Bereich ±20 bis ±30 Grad, je nach Klasse.                           |
-| ColorJitter(...)            | Verändert zufällig Helligkeit, Kontrast und Sättigung (z. B. brightness=0.2, contrast=0.2 etc.).|
-| RandomAffine(...)           | Wendet zufällige affine Transformationen an (Translation und Skalierung).                       |
+| **Augmentation**                                                      | **Beschreibung**                                                                                                                                       |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Resize((224, 224))`                                                  | Skaliert jedes Bild auf eine feste Größe von **224×224 Pixeln**, passend zum ViT-Modell.                                                               |
+| `RandomHorizontalFlip(p=0.5)`                                         | Spiegelt das Bild mit einer Wahrscheinlichkeit von **50 %** horizontal (links ↔ rechts).                                                               |
+| `RandomRotation(20)`                                                  | Rotiert das Bild zufällig im Bereich von **±20 Grad** – z. B. leicht geneigte MRT-Aufnahmen.                                                           |
+| `ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2)`           | Verändert zufällig **Helligkeit, Kontrast und Farbsättigung** des Bildes um bis zu ±20 %.                                                              |
+| `RandomAffine(degrees=0, translate=(0.05, 0.05), scale=(0.95, 1.05))` | Wendet eine **Affine-Transformation** an: verschiebt das Bild um bis zu **5 %**, skaliert es zufällig im Bereich **±5 %**. Keine zusätzliche Rotation. |
 
 ---
 
