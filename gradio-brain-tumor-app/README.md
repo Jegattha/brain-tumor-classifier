@@ -25,7 +25,7 @@ Das finale Modell wurde auf Hugging Face veröffentlicht und kann öffentlich ü
 |----------------|-----|
 | Huggingface Space   | [Brain Tumor App (Gradio)](https://huggingface.co/spaces/Tharsana/brain-tumor-classifier) |
 | Model Page          | [ViT Brain Tumor Model](https://huggingface.co/Tharsana/vit-base-brain-tumor) |
-| GitHub Repository   | *folgt* |
+| GitHub Repository   | https://github.com/Jegattha/brain-tumor-classifier|
 
 ---
 ## Labels
