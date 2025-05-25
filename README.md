@@ -141,6 +141,16 @@ Details of training can be found at [Huggingface TensorBoard](https://huggingfac
 | Transfer Learning mit `google/vit-base-patch16-224` (mit Data Augmentation)  | 92.39 %     | –         | –       |
 | Zero-Shot Image Classification mit `openai/clip-vit-large-patch14`           | 87.70 %    | 88.53 %   | 87.70 % |
 
+
+
+Die Ergebnisse zeigen deutlich, dass Data Augmentation einen starken Einfluss auf die Modellleistung hatte:
+
+🔹 Ohne Augmentation erreicht das ViT-Modell 78.49 % Accuracy
+→ Das Modell lernt, aber generalisiert nur begrenzt auf neue Daten.
+
+🔹 Mit Augmentation steigt die Accuracy auf 92.39 %
+→ Durch gezielte Bildveränderungen beim Training wurde das Modell robuster gegen Variationen im Bild (z. B. Rotation, Helligkeit).
+
 ### 🧠 Zusammenfassung
 
 | Metrik                                                               | Wofür gut?
@@ -148,7 +158,6 @@ Details of training can be found at [Huggingface TensorBoard](https://huggingfac
 | Accuracy	                                                           | Gesamttrefferquote bei balancierten Daten   |
 | Precision                                                            | Wie oft „positiv“ korrekt war   |
 | Recall                                                               | Wie viele echte „positiv“ erkannt wurden |
-
 ---
 
 ### References
