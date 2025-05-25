@@ -114,7 +114,7 @@ Nach Abschluss des Trainings wurde das Modell auf dem Test-Set evaluiert:
 - **Samples pro Sekunde**: 156.02  
 - **Evaluierungs-Epoche**: 15
 
-> Das Modell zeigte eine solide Generalisierungsleistung mit einer Testgenauigkeit von fast 87 %. Dies bestätigt die Stabilität des Trainings über 15 Epochen.
+Das Modell zeigte eine solide Generalisierungsleistung mit einer Testgenauigkeit von fast 87 %. Dies bestätigt die Stabilität des Trainings über 15 Epochen.
 
 ---
 ### TensorBoard
@@ -137,6 +137,14 @@ Details of training can be found at [Huggingface TensorBoard](https://huggingfac
 | Transfer Learning mit `google/vit-base-patch16-224` (ohne Data Augmentation) | 78.49 %    | –         | –       |
 | Transfer Learning mit `google/vit-base-patch16-224` (mit Data Augmentation)  | 92.39 %     | –         | –       |
 | Zero-Shot Image Classification mit `openai/clip-vit-large-patch14`           | 87.70 %    | 88.53 %   | 87.70 % |
+
+### 🧠 Zusammenfassung
+
+| Metrik                                                               | Wofür gut?
+| ---------------------------------------------------------------------| ---------------- |
+| Accuracy	                                                           | Gesamttrefferquote bei balancierten Daten   |
+| Precision                                                            | Wie oft „positiv“ korrekt war   |
+| Recall                                                               | Wie viele echte „positiv“ erkannt wurden |
 
 ---
 
