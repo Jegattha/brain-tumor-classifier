@@ -45,7 +45,7 @@ Die Klassifikation erfolgt in folgende zwei Klassen:
 
 | Datenquelle         | Beschreibung                                                                 |
 |---------------------|------------------------------------------------------------------------------|
-| Brain Tumor Dataset | MRT-Bilddatensatz mit zwei Klassen: „yes“ (Tumor) und „no“ (kein Tumor). Die Bilder stammen aus öffentlich zugänglichen medizinischen Bildarchiven und wurden manuell in Ordnern strukturiert. https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset & https://www.kaggle.com/datasets/mohammadhossein77/brain-tumors-dataset?utm_source=chatgpt.com |
+| Brain Tumor Dataset | MRT-Bilddatensatz mit zwei Klassen: „yes“ (Tumor) und „no“ (kein Tumor). Die Bilder stammen aus öffentlich zugänglichen medizinischen Bildarchiven und wurden manuell in Ordnern strukturiert und auf GitHub hochgeladen (brain-tumor). https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset & https://www.kaggle.com/datasets/mohammadhossein77/brain-tumors-dataset?utm_source=chatgpt.com |
 | Erweiterte Bilder   | Die Trainingsdaten wurden durch Datenaugmentation künstlich vergrößert. Dadurch stehen mehr Varianten pro Klasse zur Verfügung. |
 
 ## Datenaugmentation
