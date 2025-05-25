@@ -169,7 +169,7 @@ False Positives (9): Gesunde Fälle fälschlich als Tumor erkannt
 False Negatives (26): Tumorfälle fälschlich als gesund eingestuft 
 
 
-**show predictions**
+## Show predictions
 
 ![Beispielvorhersage (Transfer Learning)](gradio-brain-tumor-app/doc/sample_prediction_transferlearning.png)
 
