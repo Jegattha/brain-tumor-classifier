@@ -29,13 +29,16 @@ Das finale Modell wurde auf Hugging Face veröffentlicht und kann öffentlich ü
 
 ---
 ## Labels
-Die Klassifikation erfolgt in folgende zwei Klassen:
-- **brain tumor** (Hirntumor vorhanden)
-- **no brain tumor** (kein Hirntumor)
 
-## Zero-Shot-Prompts (für das CLIP-Modell verwendet)
-- „An MRI scan showing a brain tumor“
-- „An MRI scan showing a healthy brain“
+Die Klassifikation erfolgt in folgende zwei Klassen:
+
+### 📦 Für das trainierte ViT-Modell (imagefolder-Datensatz):
+- `yes` – Bild mit Hirntumor
+- `no` – Bild ohne Hirntumor
+
+### 🤖 Für das Zero-Shot CLIP-Modell:
+- `"An MRI scan showing a brain tumor"`
+- `"An MRI scan showing a healthy brain"`
 ---
 
 ## Datenquellen und verwendete Merkmale je Quelle
